@@ -2513,6 +2513,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/connect@npm:^3.4.38":
+  version: 3.4.38
+  resolution: "@types/connect@npm:3.4.38"
+  dependencies:
+    "@types/node": "*"
+  checksum: 7eb1bc5342a9604facd57598a6c62621e244822442976c443efb84ff745246b10d06e8b309b6e80130026a396f19bf6793b7cecd7380169f369dac3bfc46fb99
+  languageName: node
+  linkType: hard
+
 "@types/debug@npm:^4.1.7":
   version: 4.1.12
   resolution: "@types/debug@npm:4.1.12"
@@ -2736,6 +2745,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/seedrandom@npm:^3.0.8":
+  version: 3.0.8
+  resolution: "@types/seedrandom@npm:3.0.8"
+  checksum: 9651de4ecb5ad060053678d6a42403dd78222bcca80016417c23b58b4f739e544b7197a78b97d6862cf417ea80fd2df612cc50ca0fa387fbe794e326a382ab0b
+  languageName: node
+  linkType: hard
+
 "@types/semver@npm:^7.3.12, @types/semver@npm:^7.5.0":
   version: 7.5.8
   resolution: "@types/semver@npm:7.5.8"
@@ -2747,6 +2763,15 @@ __metadata:
   version: 2.0.7
   resolution: "@types/trusted-types@npm:2.0.7"
   checksum: 8e4202766a65877efcf5d5a41b7dd458480b36195e580a3b1085ad21e948bc417d55d6f8af1fd2a7ad008015d4117d5fdfe432731157da3c68678487174e4ba3
+  languageName: node
+  linkType: hard
+
+"@types/ws@npm:^8.5.10":
+  version: 8.5.10
+  resolution: "@types/ws@npm:8.5.10"
+  dependencies:
+    "@types/node": "*"
+  checksum: 3ec416ea2be24042ebd677932a462cf16d2080393d8d7d0b1b3f5d6eaa4a7387aaf0eefb99193c0bfd29444857cf2e0c3ac89899e130550dc6c14ada8a46d25e
   languageName: node
   linkType: hard
 
@@ -11845,6 +11870,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "se-2@workspace:."
   dependencies:
+    "@types/connect": ^3.4.38
+    "@types/seedrandom": ^3.0.8
+    "@types/ws": ^8.5.10
     husky: ~8.0.3
     lint-staged: ~13.2.2
     next: ~14.0.4
